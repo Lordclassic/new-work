@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>form and button</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <form id="newform">
+      <img src="../LOGO.JPG" alt="logo" width="10%">
+      <h1>sign up form</h1>
+      <div class="sign">
+         <label for="fname">FIRS NAME:</label>
+         <input type="text" di="fname" name="FIRS NAME" placeholder="firs name" required><br><BR>
+         <label for="Lname">LAST NAME:</label><input type="text" di="Lname" name="last name" placeholder="last name"
+            required><br><BR>
+         <label for="email">EMAIL Address:</label>
+         <input type="EMAIL" di="email" name="Email Address" placeholder="your email Address" required><br><BR>
+
+         <label for="pwd">PASSWORD</label>
+         <input type="password" di="pwd" name="password" placeholder="min. of 8 xters,uppercase,lowercase, a digit"
+            pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}" title="min. of 8 xters, uppercase,lowercase, a digit"
+            required><br><br>
+         <label for="password">CONFIRM PASSWORD:</label>
+         <input type="password" di="pwd" name="CONFIRM password" placheholder="CONFIRM password" required><br><br>
+         <label for="date of birth">DATE OF BIRTH</label>
+         <input type="date" di="date" required><br><br>
+         <label for="PHONE">PHONE NUMBER</label>
+         <input type="number" di="TEI" required><br><br>
+
+         <label for="male">male</label>
+         <input type="radio" di="male" name="gender"><br>
+         <label for="female">female</label>
+         <input type="radio" di="female" name="gender"><br>
+         <label for="others">others</label>
+         <input type="radio" di="others" name="gender"><br><bR>
+
+
+         <button type="submit" style="font-size: x-large;">sign</button><BR>
+         <p>Already have an account <a href="#"> login</a></p>
+      </div>
+   </form>
+</body>
+
+</html>
